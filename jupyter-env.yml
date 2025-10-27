@@ -1,0 +1,25 @@
+name: jupyter-env
+channels:
+  - conda-forge
+channel_priority: strict
+
+dependencies:
+  # Core
+  - python=3.12.3
+  - pip
+
+  # Jupyter (Lab UI + kernel for notebooks)
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+
+  # Scientific/data stack you had in your pyenv
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pillow
+  - mendeleev
+  - sqlalchemy
+  - autograd
+  - tensorly
