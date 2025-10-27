@@ -1,0 +1,57 @@
+# AI generated, might be wrong
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environment files
+*.conda
+*.env
+*.yml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Jupyter runtime files
+~/.local/share/jupyter/runtime/
+
+# VSCode settings (if applicable)
+.vscode/
+
+# Python virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and outputs
+*.log
+*.out
+
+# Data files (optional — only if you don’t want to track them)
+*.csv
+*.tsv
+*.dat
+*.h5
+*.sqlite
+*.db
+
+# Large files or temporary results
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# IPython history
+.history
+
+# JupyterLab workspace settings
+.lab/
+
+# Misc
+*.bak
+*.tmp
