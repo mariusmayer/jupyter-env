@@ -1,7 +1,6 @@
 name: jupyter-env
 channels:
   - conda-forge
-channel_priority: strict
 
 dependencies:
   # Core
