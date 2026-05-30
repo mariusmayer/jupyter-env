@@ -75,7 +75,7 @@ that is how the two fall out of sync.
 conda env update -n jupyter-env -f jupyter-env.yml --prune
 
 # 3. Commit the change
-git add environment.yml
+git add jupyter-env.yml
 git commit -m "add <package>"
 git push
 ```
