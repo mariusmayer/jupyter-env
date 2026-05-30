@@ -72,7 +72,7 @@ that is how the two fall out of sync.
 ```bash
 # 1. Edit environment.yml (add/remove/change a package)
 # 2. Apply to the live environment
-conda env update -n jupyter-env -f environment.yml --prune
+conda env update -n jupyter-env -f jupyter-env.yml --prune
 
 # 3. Commit the change
 git add environment.yml

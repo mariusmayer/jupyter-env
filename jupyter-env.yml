@@ -23,3 +23,7 @@ dependencies:
   - autograd
   - tensorly
   - pyscf
+
+  # Geometry + chemistry tooling
+  - rdkit
+  - geometric
